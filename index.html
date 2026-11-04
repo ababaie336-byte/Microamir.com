@@ -4,56 +4,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مایکروامیر | Microamir</title>
+
     <style>
-        body {
+        * {
+            box-sizing: border-box;
             margin: 0;
+            padding: 0;
+        }
+
+        body {
             font-family: Tahoma, sans-serif;
-            background: #f4f7ff;
+            background: #f3f7ff;
             color: #172554;
+            line-height: 1.9;
+        }
+
+        header {
+            background: #102a56;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        header h2 {
+            color: #60a5fa;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 90px 20px;
+            background: linear-gradient(135deg, #102a56, #2563eb);
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 28px;
+            background: #60a5fa;
+            color: #102a56;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 55px 8%;
             text-align: center;
         }
-        header {
-            background: #0756c9;
-            color: white;
-            padding: 35px;
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
         }
-        h1 { font-size: 38px; }
-        main { padding: 50px 20px; }
-        .card {
+
+        .product {
             background: white;
-            padding: 30px;
-            margin: 20px auto;
-            max-width: 600px;
-            border-radius: 18px;
-            box-shadow: 0 4px 15px #ccd5e5;
+            padding: 25px;
+            border-radius: 15px;
+            width: 260px;
+            box-shadow: 0 5px 20px #dbeafe;
         }
+
+        .product h3 {
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+
         footer {
-            background: #10264c;
+            background: #102a56;
             color: white;
-            padding: 20px;
+            text-align: center;
+            padding: 25px;
         }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>مایکروامیر</h1>
-        <p>Microamir Technology</p>
-    </header>
 
-    <main>
-        <div class="card">
-            <h2>به مایکروامیر خوش آمدید!</h2>
-            <p>دنیایی از فناوری، نرم‌افزار و خلاقیت.</p>
+<header>
+    <h2>MICROAMIR</h2>
+    <nav>
+        <a href="#home">خانه</a>
+        <a href="#about">درباره ما</a>
+        <a href="#products">محصولات</a>
+        <a href="#contact">تماس</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+    <h1>به مایکروامیر خوش آمدید</h1>
+    <p>ایده‌های بزرگ، دنیای دیجیتال بهتر</p>
+    <a class="button" href="#about">بیشتر بدانید</a>
+</div>
+
+<section id="about">
+    <h2>درباره مایکروامیر</h2>
+    <p>
+        مایکروامیر یک برند نرم‌افزاری با هدف ساخت
+        بازی‌ها و برنامه‌های خلاقانه است.
+    </p>
+</section>
+
+<section id="products">
+    <h2>محصولات ما</h2>
+
+    <div class="products">
+        <div class="product">
+            <h3>🎮 کلش آف امیر</h3>
+            <p>یک بازی استراتژیک جذاب در دنیای بازی‌ها.</p>
         </div>
 
-        <div class="card">
-            <h2>درباره ما</h2>
-            <p>مایکروامیر، دنیای ایده‌های بزرگ و فناوری‌های نوین.</p>
+        <div class="product">
+            <h3>💻 Soft OS 1</h3>
+            <p>پروژه سیستم‌عامل اختصاصی مایکروامیر.</p>
         </div>
-    </main>
 
-    <footer>
-        :copyright: Microamir - All Rights Reserved
-    </footer>
+        <div class="product">
+            <h3>🤖 Amir AI</h3>
+            <p>ایده‌ای برای ساخت ابزارهای هوشمند.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>ارتباط با ما</h2>
+    <p>به‌زودی راه‌های ارتباطی مایکروامیر اضافه می‌شوند.</p>
+</section>
+
+<footer>
+    <p>©️ 2026 Microamir - All Rights Reserved</p>
+    <p>ساخته شده با علاقه ❤️</p>
+</footer>
+
 </body>
 </html>
