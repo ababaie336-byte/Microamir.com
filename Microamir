@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مایکروامیر | Microamir</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Tahoma, sans-serif;
+            background: #f4f7ff;
+            color: #172554;
+            text-align: center;
+        }
+        header {
+            background: #0756c9;
+            color: white;
+            padding: 35px;
+        }
+        h1 { font-size: 38px; }
+        main { padding: 50px 20px; }
+        .card {
+            background: white;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 18px;
+            box-shadow: 0 4px 15px #ccd5e5;
+        }
+        footer {
+            background: #10264c;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مایکروامیر</h1>
+        <p>Microamir Technology</p>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>به مایکروامیر خوش آمدید!</h2>
+            <p>دنیایی از فناوری، نرم‌افزار و خلاقیت.</p>
+        </div>
+
+        <div class="card">
+            <h2>درباره ما</h2>
+            <p>مایکروامیر، دنیای ایده‌های بزرگ و فناوری‌های نوین.</p>
+        </div>
+    </main>
+
+    <footer>
+        :copyright: Microamir - All Rights Reserved
+    </footer>
+</body>
+</html>
